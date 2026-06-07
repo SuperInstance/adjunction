@@ -1,0 +1,14 @@
+[package]
+name = "adjunction"
+version = "0.1.0"
+edition = "2024"
+description = "Category theory adjunctions for agent composition — concrete implementations of free, forgetful, and reflective functors"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/adjunction"
+keywords = ["category-theory", "adjunction", "functor", "algebra", "mathematics"]
+categories = ["mathematics", "data-structures"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
